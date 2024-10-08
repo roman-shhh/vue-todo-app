@@ -1,6 +1,6 @@
 {
   "name": "vue-todo-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "homepage": "https://roman-shhh.github.io/vue-todo-app/",
   "type": "module",
@@ -13,11 +13,11 @@
   },
   "dependencies": {
     "uuid": "^10.0.0",
-    "vue": "^3.4.29"
+    "vue": "^3.5.11"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue": "^5.1.4",
     "gh-pages": "^6.1.1",
-    "vite": "^5.3.1"
+    "vite": "^5.4.8"
   }
 }
