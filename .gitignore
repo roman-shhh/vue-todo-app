@@ -1,5 +1,15 @@
+dist
+dist-ssr
+coverage
+# Node
+node_modules/
+.env*
+.npm/
+.yarn/
+.pnp*
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,24 +17,33 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
+# Build output
+dist/
+dist-ssr/
+coverage/
+.output/
 *.local
 
-/cypress/videos/
-/cypress/screenshots/
+# Cypress
+cypress/videos/
+cypress/screenshots/
 
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.history/
+.DS_Store
+Thumbs.db
 
+# TypeScript
 *.tsbuildinfo
+
+# Mac system files
+.AppleDouble
+.LSOverride
